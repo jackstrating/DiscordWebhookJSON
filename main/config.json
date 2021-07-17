@@ -1,0 +1,7 @@
+{
+    "url": "webhook here",
+    "username": "username here",
+    "message": "message here",
+    "avatar_url": "avatar here (optional)",
+    "loop": "False"
+}
