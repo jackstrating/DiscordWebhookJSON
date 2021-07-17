@@ -27,10 +27,6 @@ def main():
             print("ERR: Please insert a valid url in the category of 'message' in 'config.json'")
             time.sleep(5)
             sys.exit()
-        elif load_json['loop'] != "True" or "False":
-            print("ERR: Please insert 'True' or 'False' in the 'loop' category of 'config.json'")
-            time.sleep(5)
-            sys.exit()
     except TypeError:
             print("ERR: Problem parsing 'config.json' file.")
 
